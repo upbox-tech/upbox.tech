@@ -8632,3 +8632,48 @@ p.forgot-password {
 nav a#pull {
   display: none;
 }
+
+.section-wrapper {
+  display: flex;
+  padding-top: 25px;
+  justify-content: space-evenly;
+}
+
+.how-we-work-graphic {
+  background-color: #0195ff;
+}
+
+.how-we-work-container {
+  justify-content: center;
+}
+.bullet-step-list-ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.bullet-step-list-ul:before {
+  content: "";
+  width: 6px;
+  background: #2f353e;
+  position: absolute;
+  left: 11.5px;
+  top: 5px;
+  height: calc(100% - 10px);
+}
+.bullet-step-list-li {
+  position: relative;
+  padding-left: 50px;
+  margin-bottom: 15px;
+}
+.bullet-step-list-li:before {
+  content: "";
+  width: 30px;
+  height: 30px;
+  background: white;
+  position: absolute;
+  left: 0;
+  top: 4px;
+  border-radius: 20px;
+  border: #2f353e solid 5px;
+}
